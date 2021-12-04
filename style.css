@@ -1,0 +1,28 @@
+body{
+    background-image: url("lisa.jpg");
+    background-position: center;
+    background-size: cover;
+}
+canvas{
+    animation-duration: 4s;
+    animation-name: person;
+    animation-iteration-count: infinite;
+    float: left;
+    margin-left: 10px;
+
+}
+@keyframes person{
+    from{box-shadow: 1px 1px 38px rgb(0, 0, 0);}
+    to{box-shadow: 1px 1px 38px rgb(232, 166, 245);}
+}
+h1{
+    animation-duration: 4s;
+    animation-name: Example;
+    animation-iteration-count: infinite;  
+    background:linear-gradient(black 0%,pink 100%);
+    width: 100%;
+    color: whitesmoke;
+}
+@keyframes Example{
+   50%{font-size: 30px;}
+}
